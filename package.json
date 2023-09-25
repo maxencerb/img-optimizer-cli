@@ -1,0 +1,13 @@
+{
+  "name": "img-optimizer-cli",
+  "version": "1.0.0",
+  "description": "Web optimization CLI (create images format for web)",
+  "author": "Maxence Raballand",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "sharp": "^0.32.6"
+  },
+  "bin": "src/bin.js",
+  "type": "module"
+}

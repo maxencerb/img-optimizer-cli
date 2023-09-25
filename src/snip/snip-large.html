@@ -1,0 +1,38 @@
+<picture>
+  <!-- AVIF images -->
+  <source
+    type="image/avif"
+    srcset="
+      /[FILENAME]/avif/320w.avif   320w,
+      /[FILENAME]/avif/640w.avif   640w,
+      /[FILENAME]/avif/1024w.avif 1024w,
+      /[FILENAME]/avif/1920w.avif 1920w,
+      /[FILENAME]/avif/2560w.avif 2560w
+    "
+    sizes="(max-width: 320px) 320px,
+          (max-width: 640px) 640px,
+          (max-width: 1024px) 1024px,
+          (max-width: 1920px) 1920px,
+          2560px"
+  />
+
+  <!-- WebP images -->
+  <source
+    type="image/webp"
+    srcset="
+      /[FILENAME]/webp/320w.webp   320w,
+      /[FILENAME]/webp/640w.webp   640w,
+      /[FILENAME]/webp/1024w.webp 1024w,
+      /[FILENAME]/webp/1920w.webp 1920w,
+      /[FILENAME]/webp/2560w.webp 2560w
+    "
+    sizes=" (max-width: 320px) 320px,
+            (max-width: 640px) 640px,
+            (max-width: 1024px) 1024px,
+            (max-width: 1920px) 1920px,
+            2560px"
+  />
+
+  <!-- Raw image fallback -->
+  <img src="[RAW_FILE]" alt="[IMAGE_DESCRIPTION]" />
+</picture>
